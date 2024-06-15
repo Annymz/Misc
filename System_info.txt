@@ -1,0 +1,55 @@
+System:
+  Host: fedora Kernel: 6.8.11-300.fc40.x86_64 arch: x86_64 bits: 64
+  Desktop: GNOME v: 46.2 Distro: Fedora Linux 40 (Workstation Edition)
+Machine:
+  Type: Desktop Mobo: Micro-Star model: A320M-A PRO MAX (MS-7C52) v: 1.0
+    serial: <superuser required> UEFI: American Megatrends LLC. v: 2.F0
+    date: 10/26/2023
+CPU:
+  Info: 6-core model: AMD Ryzen 5 3500 bits: 64 type: MCP cache: L2: 3 MiB
+  Speed (MHz): avg: 2200 min/max: 2200/4120 cores: 1: 2200 2: 2200 3: 2200
+    4: 2200 5: 2200 6: 2200
+Graphics:
+  Device-1: AMD Navi 22 [Radeon RX 6700/6700 XT/6750 XT / 6800M/6850M XT]
+    driver: amdgpu v: kernel
+  Display: wayland server: X.Org v: 24.1 with: Xwayland v: 24.1.0
+    compositor: gnome-shell driver: X: loaded: modesetting dri: radeonsi
+    gpu: amdgpu resolution: 1920x1080~165Hz
+  API: OpenGL v: 4.6 vendor: amd mesa v: 24.1.1 renderer: AMD Radeon RX
+    6700 (radeonsi navi22 LLVM 18.1.6 DRM 3.57 6.8.11-300.fc40.x86_64)
+  API: Vulkan v: 1.3.283 drivers: N/A surfaces: xcb,xlib,wayland
+  API: EGL Message: EGL data requires eglinfo. Check --recommends.
+Audio:
+  Device-1: AMD Navi 21/23 HDMI/DP Audio driver: snd_hda_intel
+  Device-2: AMD Starship/Matisse HD Audio driver: snd_hda_intel
+  Device-3: Realtek USB Condenser Microphone
+    driver: hid-generic,snd-usb-audio,usbhid type: USB
+  API: ALSA v: k6.8.11-300.fc40.x86_64 status: kernel-api
+  Server-1: PipeWire v: 1.0.7 status: active
+Network:
+  Device-1: Realtek RTL8111/8168/8211/8411 PCI Express Gigabit Ethernet
+    driver: r8169
+  IF: enp37s0 state: up speed: 1000 Mbps duplex: full mac: 00:d8:61:c2:6e:92
+Bluetooth:
+  Device-1: Cambridge Silicon Radio Bluetooth Dongle (HCI mode) driver: btusb
+    type: USB
+  Report: btmgmt ID: hci0 state: up address: 00:1A:7D:DA:71:15 bt-v: 4.0
+Drives:
+  Local Storage: total: 2.49 TiB used: 705.13 GiB (27.6%)
+  ID-1: /dev/nvme0n1 vendor: Kingston model: SA2000M81000G size: 931.51 GiB
+  ID-2: /dev/sda vendor: Samsung model: ST1000LM024 HN-M101MBB
+    size: 931.51 GiB
+  ID-3: /dev/sdb vendor: Crucial model: CT240BX500SSD1 size: 223.57 GiB
+  ID-4: /dev/sdc vendor: Western Digital model: WD5000LPCX-22VHAT1
+    size: 465.76 GiB type: USB
+Partition:
+  ID-1: / size: 75 GiB used: 36.12 GiB (48.2%) fs: btrfs dev: /dev/sdb6
+  ID-2: /boot/efi size: 1022 MiB used: 19 MiB (1.9%) fs: vfat dev: /dev/sdb5
+Swap:
+  ID-1: swap-1 type: zram size: 8 GiB used: 0 KiB (0.0%) dev: /dev/zram0
+Sensors:
+  System Temperatures: cpu: 48.5 C mobo: N/A gpu: amdgpu temp: 53.0 C
+  Fan Speeds (rpm): N/A gpu: amdgpu fan: 0
+Info:
+  Memory: total: 32 GiB available: 31.26 GiB used: 5.15 GiB (16.5%)
+  Processes: 812 Uptime: 31m Shell: Bash inxi: 3.3.34
